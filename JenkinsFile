@@ -6,9 +6,9 @@ pipeline {
     stages { //collection of jobs
         stage('Deployment') { //stage == job
             steps { // job steps
-              sh 'docker pull jinny1/gfgdevops33:latest'
+              sh 'docker pull ashvithagaddam/bunty22_devops33:latest'
               sh 'docker rm -f gfgwebos'
-              sh 'docker run -d --name gfgwebos -p 80:80 jinny1/gfgdevops33:latest'
+              sh 'docker run -d --name gfgwebos -p 80:80 ashvithagaddam/bunty22_devops33:latest'
         }
             }
         }

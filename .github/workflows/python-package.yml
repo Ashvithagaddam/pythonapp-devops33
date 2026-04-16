@@ -101,4 +101,4 @@ jobs: #A set of jobs (collection of jobs == pipeline) that will be run as part o
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: jinny1/gfgdevops33:latest
+          tags: ashvithagaddam/bunty22_devops33:latest
