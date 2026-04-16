@@ -7,11 +7,11 @@ def create_app():
     @app.route('/')
     def home():
         print("inside home function")
-        return 'Hurray'
+        return 'Hurray GFG - Ashvitha'
 
     @app.route('/test')
     def test():
-        return 'Hi Sudhanshu test'
+        return 'Hi Ashvitha test'
     return app
 
 
